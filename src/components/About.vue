@@ -179,7 +179,7 @@
     transform: scaleX(-1);
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 767.98px), screen and (max-height: 730px)  {
     .letter {
         width: 480px;
         height: 590px;
@@ -213,7 +213,7 @@
     }
 }
 
-@media screen and (max-width: 514px) {
+@media screen and (max-width: 514px), screen and (max-height: 630px) {
     .letter {
         width: 350px;
         height: 460px;
@@ -254,4 +254,40 @@
         bottom: 35px;
     }
 }
+
+/* @media screen and (max-height: 730px) {
+
+    .letter {
+        width: 480px;
+        height: 590px;
+    }
+
+    .letter-front__title {
+        font-size: 40px;
+    }
+
+    .letter-front__name {
+        width: 120px;
+    }
+
+    .letter-front__photo {
+        width: 200px;
+        height: 200px;
+    } 
+
+    .position {
+        height: 40px;
+        width: 260px;
+    }
+
+    .position__title {
+        font-size: 20px;
+    }
+
+    .skills {
+        width: 280px;
+        height: 210px;
+    }
+    
+} */
 </style>

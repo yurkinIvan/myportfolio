@@ -229,6 +229,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100%;
+    overflow: hidden;
 }
 
 #app::after {
@@ -240,7 +241,6 @@ export default {
     opacity: 0;
     transition: opacity 1s ease-in-out;
 }
-
 
 /* .scroll {
     position: fixed;
